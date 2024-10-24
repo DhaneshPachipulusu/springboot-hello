@@ -4,7 +4,7 @@
 
 
 - Install GIT
-  ```bash
+  ```bash1
   sudo yum install git -y
   ```
 - Install Maven
