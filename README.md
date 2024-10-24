@@ -59,7 +59,7 @@ jobs
 
 http://public-ip:8080
 http://localhost:8080
-```
+```.
 
 ## If you want to run ```Dockerfile-with-ARG-ENV file```
 
