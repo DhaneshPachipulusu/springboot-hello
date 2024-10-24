@@ -65,4 +65,4 @@ http://localhost:8080
 
 ```bash
 docker build -t springboothello:v1 -f Dockerfile-with-ARG-ENV . --build-arg version=0.1.0
-```
+``` .
