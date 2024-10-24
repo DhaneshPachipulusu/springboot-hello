@@ -43,7 +43,7 @@ sudo systemctl start tomcat
 
 sudo systemctl enable tomcat
 
-# Now Tomcat should be running as a systemd service on your Ubuntu EC2 instance. You can manage it using systemctl commands like start, stop, restart, and status
+# Now Tomcat should be running as a systemd service on your Ubuntu EC2 instance. You can manage it using systemctl commands like start, stop, restart, and status.
 
 
 
