@@ -1,4 +1,4 @@
-# Create a Tomcat User: good practice to run Tomcat as a dedicated user. Create a user for Tomcat: ///
+# Create a Tomcat User: good practice to run Tomcat as a dedicated user. Create a user for Tomcat server: ///
 
 sudo useradd -r -m -U -d /opt/tomcat -s /bin/false tomcat
 # Install Tomcat: Download and install Apache Tomcat. You can get the latest version from the official Tomcat website. For example, if you download and extract Tomcat to /opt/tomcat, the following commands can be used:
@@ -32,7 +32,7 @@ StandardOutput=null
 [Install]
 WantedBy=multi-user.target
 
-# Adjust Permissions: Ensure that the Tomcat installation directory is owned by the tomcat user
+# Adjust Permissions: Ensure that the Tomcat installation directory is owned by the tomcat user 
 sudo chown -R tomcat:tomcat /opt/tomcat
 
 # Reload Systemd and Start Tomcat
